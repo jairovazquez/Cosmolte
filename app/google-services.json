@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1058398594362",
+    "project_id": "firebase-cosmolte"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058398594362:android:6c14725923ba68f2",
+        "android_client_info": {
+          "package_name": "com.captech.cosmonauts.cosmolte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058398594362-9ort32096vjij4ceputt389se082cni6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.captech.cosmonauts.cosmolte",
+            "certificate_hash": "158D5DE4AB48CCA3DF030A16294EA748C0D566FE"
+          }
+        },
+        {
+          "client_id": "1058398594362-c4u74usdkaktk7vfnsso3m4tb8a0ckec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv9P7Q7_uPBDeUpWpiOv3pP3BYrBeb-V0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

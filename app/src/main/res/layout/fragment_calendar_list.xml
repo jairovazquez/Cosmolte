@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/calendarlist"
+        android:name="com.captech.cosmonauts.cosmolte.CosmolteCalendarListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:visibility="gone"
+        app:layoutManager="LinearLayoutManager"
+        tools:context=".fragments.CosmolteCalendarListFragment"
+        tools:listitem="@layout/fragment_calendar_item" />
+
+    <ProgressBar
+        android:id="@+id/calendarProgressBar"
+        style="@style/Base.Widget.AppCompat.ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:paddingTop="@dimen/nav_header_height"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

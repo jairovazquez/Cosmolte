@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.captech.cosmonauts.cosmolte.activites.CheckInActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Spinner
+            android:id="@+id/nameSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/nav_header_height"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/nameTextView"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/nav_header_height"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/questionLabel"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Is this an expense or free lunch?" />
+
+        <Button
+            android:id="@+id/expenseButton"
+            style="@style/Base.TextAppearance.AppCompat.Button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:background="@android:color/holo_green_light"
+            android:drawableLeft="@drawable/ic_shoping_cart"
+            android:padding="@dimen/fab_margin"
+            android:text="Expense"
+            android:textSize="24dp" />
+
+        <Button
+            style="@style/Base.TextAppearance.AppCompat.Button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/expenseButton"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:background="@android:color/holo_blue_light"
+            android:drawableLeft="@drawable/ic_free"
+            android:padding="@dimen/fab_margin"
+            android:text="Free"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+</ScrollView>
+
